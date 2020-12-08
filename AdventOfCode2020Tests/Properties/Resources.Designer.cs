@@ -172,5 +172,98 @@ namespace AdventOfCode2020Tests.Properties {
                 return ResourceManager.GetString("Day01Part2Output", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1-4 m: mrfmmbjxr
+        ///5-16 b: bbbbhbbbbpbxbbbcb
+        ///7-8 x: qxrxmxccxxx
+        ///9-11 k: kkkkkkktmkhk
+        ///8-12 g: sgwvdxzhkvndv
+        ///6-9 v: zvmvvmvvvd
+        ///8-19 f: ffffsplmfflffhtfrfj
+        ///5-16 p: pppppppppspppjpcp
+        ///2-3 w: wwmw
+        ///7-19 j: jjjjjjjjjjjjjjjjjjvj
+        ///5-9 q: wqzqqqqqq
+        ///14-15 g: gggggggggglggfgg
+        ///4-6 p: tppzkppdt
+        ///11-14 p: vppgpktpppppptpppqp
+        ///5-9 f: bfflffrfgf
+        ///7-9 p: ppppptbzn
+        ///1-3 l: lllvn
+        ///2-4 g: qvcdg
+        ///1-3 m: wsmdv
+        ///1-5 v: vvvvvvvv
+        ///10-14 l: lckqlgjllltlwbl
+        ///3-4 t: bsttftltjhbqbgtm
+        ///15-17 j: jjzjjjjjhjjjjjjpzjj
+        ///2-3 t: thtt
+        ///6 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day02Input {
+            get {
+                return ResourceManager.GetString("Day02Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 607.
+        /// </summary>
+        internal static string Day02Part1Output {
+            get {
+                return ResourceManager.GetString("Day02Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 321.
+        /// </summary>
+        internal static string Day02Part2Output {
+            get {
+                return ResourceManager.GetString("Day02Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ...#.....#.......##......#.....
+        ///...#..................#........
+        ///....##....#.......#............
+        ///.........#.......#.......#.....
+        ///..#..............#.........#..#
+        ///.....#.........#....#....#....#
+        ///....##..........#.#.##.........
+        ///...#....##...#...#...#.#..#....
+        ///...#.......###..........#......
+        ///.........#.....#....#...#.#....
+        ///.#...###..#..##..#.........###.
+        ///#.#...#..........###...#....#..
+        ///#....#.#..#..........#.......#.
+        ///.#..#........##.#..............
+        ///............#..#.#............#
+        ///.............#... [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day03Input {
+            get {
+                return ResourceManager.GetString("Day03Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.
+        /// </summary>
+        internal static string Day03Part1Output {
+            get {
+                return ResourceManager.GetString("Day03Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.
+        /// </summary>
+        internal static string Day03Part2Output {
+            get {
+                return ResourceManager.GetString("Day03Part2Output", resourceCulture);
+            }
+        }
     }
 }
