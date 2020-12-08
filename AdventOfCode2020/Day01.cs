@@ -12,7 +12,7 @@ namespace AdventOfCode2020
 
         public Day01(string input)
         {
-            numbersList = input.Split("\n");
+            numbersList = input.Split("\r\n");
         }
 
 

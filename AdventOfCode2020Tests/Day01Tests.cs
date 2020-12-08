@@ -14,14 +14,14 @@ namespace AdventOfCode2020Tests
 
 
         [TestMethod]
-        [DataRow("1721\n979\n366\n299\n675\n1456", 514579)]
+        [DataRow("1721\r\n979\r\n366\r\n299\r\n675\r\n1456", 514579)]
         public void SearchWantedPairTest(string numbersList, int expectedNumber)
         {
             Assert.AreEqual(expectedNumber, new Day01(numbersList).SolvePart1());
         }
 
         [TestMethod]
-        [DataRow("1721\n979\n366\n299\n675\n1456", 241861950)]
+        [DataRow("1721\r\n979\r\n366\r\n299\r\n675\r\n1456", 241861950)]
         public void SearchWantedTrioTest(string numbersList, int expectedNumber)
         {
             Assert.AreEqual(expectedNumber, new Day01(numbersList).SolvePart2());

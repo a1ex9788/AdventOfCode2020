@@ -249,7 +249,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0.
+        ///   Looks up a localized string similar to 220.
         /// </summary>
         internal static string Day03Part1Output {
             get {
@@ -258,11 +258,149 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0.
+        ///   Looks up a localized string similar to 2138320800.
         /// </summary>
         internal static string Day03Part2Output {
             get {
                 return ResourceManager.GetString("Day03Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ..##.......
+        ///#...#...#..
+        ///.#....#..#.
+        ///..#.#...#.#
+        ///.#...##..#.
+        ///..#.##.....
+        ///.#.#.#....#
+        ///.#........#
+        ///#.##...#...
+        ///#...##....#
+        ///.#..#...#.#.
+        /// </summary>
+        internal static string Day03TestInput {
+            get {
+                return ResourceManager.GetString("Day03TestInput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to eyr:2029 byr:1931 hcl:z cid:128
+        ///ecl:amb hgt:150cm iyr:2015 pid:148714704
+        ///
+        ///byr:2013 hgt:70cm pid:76982670 ecl:#4f9a1c
+        ///hcl:9e724b eyr:1981 iyr:2027
+        ///
+        ///pid:261384974 iyr:2015
+        ///hgt:172cm eyr:2020
+        ///byr:2001 hcl:#59c2d9 ecl:amb cid:163
+        ///
+        ///eyr:2024 hcl:#b6652a
+        ///cid:340
+        ///byr:1929 ecl:oth iyr:2014 pid:186640193
+        ///hgt:193in
+        ///
+        ///iyr:2015 eyr:2024 hgt:184cm
+        ///ecl:blu hcl:#a97842 byr:1959 pid:932817398
+        ///
+        ///iyr:1933 hcl:7c63aa cid:72 eyr:2028
+        ///ecl:hzl
+        ///byr:2009 hgt:164cm pid:104496116
+        ///
+        ///byr:1980
+        ///hgt:181cm pid:192793676 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day04Input {
+            get {
+                return ResourceManager.GetString("Day04Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.
+        /// </summary>
+        internal static string Day04Part1Output {
+            get {
+                return ResourceManager.GetString("Day04Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.
+        /// </summary>
+        internal static string Day04Part2Output {
+            get {
+                return ResourceManager.GetString("Day04Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to FFBBBFBLRL
+        ///BFFFBFBRRR
+        ///BFFFBFBLRL
+        ///BFFBFBBLRR
+        ///BBFFBFFRLL
+        ///BFFFBFBRLR
+        ///FFFFBBBRLR
+        ///BBFFFBBRRR
+        ///BBFBFBBRRR
+        ///BFFBBBFLRR
+        ///FFBBFBBRLR
+        ///BBFFBFFLLL
+        ///BFFFBFBLLR
+        ///FBBFFBFLRR
+        ///FBBFBBFRRL
+        ///BFFBBBBRRR
+        ///BFBBBBFLLL
+        ///BFFBFBFLRR
+        ///FBBFFBFRRR
+        ///FFBFBFBLRL
+        ///BFFFFBFLRR
+        ///FBBFFFFLRR
+        ///BFFFBBBLLL
+        ///BFBFFFBRLL
+        ///FFBBBBBRLL
+        ///FFBBFFBLLR
+        ///FBFFBBFLRL
+        ///FFBFFBBRRL
+        ///BFBBBBFLLR
+        ///BFFFFBFRRL
+        ///BFFBFFFLLL
+        ///FBFFFBFLRL
+        ///FBBBFFFLLL
+        ///FFBFBBFRLR
+        ///FBBBFBFRRL
+        ///BFBBBFBLLL
+        ///FBFFFBFLRR
+        ///FBFBFFBLRR
+        ///BFFFFBFLRL
+        ///FBFBFFFRRL
+        ///FBBFBFBLRL
+        ///FBBFFBFLLL
+        ///FBFBBBBR [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day05Input {
+            get {
+                return ResourceManager.GetString("Day05Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.
+        /// </summary>
+        internal static string Day05Part1Output {
+            get {
+                return ResourceManager.GetString("Day05Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0.
+        /// </summary>
+        internal static string Day05Part2Output {
+            get {
+                return ResourceManager.GetString("Day05Part2Output", resourceCulture);
             }
         }
     }

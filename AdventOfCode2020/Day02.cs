@@ -12,7 +12,7 @@ namespace AdventOfCode2020
 
         public Day02(string input)
         {
-            criteriasAndPasswords = input.Split("\n");
+            criteriasAndPasswords = input.Split("\r\n");
         }
 
 
