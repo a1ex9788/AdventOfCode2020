@@ -6949,10 +6949,10 @@ acc +18
 jmp +1</value>
   </data>
   <data name="Day08Part1Output" xml:space="preserve">
-    <value>0</value>
+    <value>1939</value>
   </data>
   <data name="Day08Part2Output" xml:space="preserve">
-    <value>0</value>
+    <value>2212</value>
   </data>
   <data name="Day09Input" xml:space="preserve">
     <value>10
