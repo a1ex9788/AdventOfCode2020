@@ -23,9 +23,9 @@ namespace AdventOfCode2020Tests
                  "acc +1\r\n" +
                  "jmp -4\r\n" +
                  "acc +6", 5)]
-        public void CalculateAccumulatorBeforeLoopTest(string program, int expectedAccumulator)
+        public void GameBoy_ExecuteProgramTest(string program, int expectedAccumulator)
         {
-            Assert.AreEqual(expectedAccumulator, new Day08(program).SolvePart1());
+            Assert.AreEqual(expectedAccumulator, new GameBoy(program).ExecuteProgram());
         }
 
         [TestMethod]
@@ -38,9 +38,9 @@ namespace AdventOfCode2020Tests
                  "acc +1\r\n" +
                  "jmp -4\r\n" +
                  "acc +6", 8)]
-        public void CalculateAccumulatorReplacingWrongInstructionTest(string program, int expectedAccumulator)
+        public void GameBoy_ReplaceJmpOrNopWrongInstructionAndExecuteProgramTest(string program, int expectedAccumulator)
         {
-            Assert.AreEqual(expectedAccumulator, new Day08(program).SolvePart2());
+            Assert.AreEqual(expectedAccumulator, new GameBoy(program).ReplaceJmpOrNopWrongInstructionAndExecuteProgram());
         }
     }
 }
