@@ -2809,10 +2809,10 @@ ecl:gry
 cid:209 hcl:#efcc98 byr:2001</value>
   </data>
   <data name="Day04Part1Output" xml:space="preserve">
-    <value>0</value>
+    <value>233</value>
   </data>
   <data name="Day04Part2Output" xml:space="preserve">
-    <value>0</value>
+    <value>111</value>
   </data>
   <data name="Day05Input" xml:space="preserve">
     <value>FFBBBFBLRL

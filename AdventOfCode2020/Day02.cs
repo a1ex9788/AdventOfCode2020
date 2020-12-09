@@ -29,17 +29,7 @@ namespace AdventOfCode2020
 
         private long MeetsCriteria(Func<string, bool> criteria)
         {
-            int validPasswords = 0;
-
-            foreach (string criteriaAndPassword in criteriasAndPasswords)
-            {
-                if (criteria(criteriaAndPassword))
-                {
-                    validPasswords++;
-                }
-            }
-
-            return validPasswords;
+            return criteriasAndPasswords.Where(cap => criteria(cap)).Count();
         }
 
         public static bool MeetsRangeOcurrenciesCriteria(string criteriaAndPassword)
