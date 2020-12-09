@@ -6305,10 +6305,10 @@ vibrant coral bags contain 3 drab turquoise bags, 4 striped beige bags, 1 wavy t
 faded gray bags contain 3 striped purple bags.</value>
   </data>
   <data name="Day07Part1Output" xml:space="preserve">
-    <value>0</value>
+    <value>278</value>
   </data>
   <data name="Day07Part2Output" xml:space="preserve">
-    <value>0</value>
+    <value>45157</value>
   </data>
   <data name="Day08Input" xml:space="preserve">
     <value>acc -13
