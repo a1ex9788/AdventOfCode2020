@@ -10,6 +10,8 @@ namespace AdventOfCode2020
     {
         string[] numbersList;
 
+        public long WANTED_NUMBER = 2020;
+
         public Day01(string input)
         {
             numbersList = input.Split("\r\n");
@@ -18,7 +20,7 @@ namespace AdventOfCode2020
 
         public override long SolvePart1()
         {
-            (int firstNumber, int secondNumber) = SearchWantedPair();
+            (long firstNumber, long secondNumber) = SearchWantedPair();
 
             return firstNumber * secondNumber;
         }
@@ -31,17 +33,17 @@ namespace AdventOfCode2020
         }
 
 
-        private (int, int) SearchWantedPair()
+        private (long, long) SearchWantedPair()
         {
             Hashtable hashtable = new Hashtable();
             int FOUND = 5;
 
             foreach (string number in numbersList)
             {
-                int currentNumber = Convert.ToInt32(number);
-                int expectedNumber = 2020 - currentNumber;
+                long currentNumber = Convert.ToInt64(number);
+                long expectedNumber = WANTED_NUMBER - currentNumber;
 
-                if (FOUND.Equals(hashtable[expectedNumber]))
+                if (FOUND.Equals(hashtable[expectedNumber]) && !currentNumber.Equals(expectedNumber))
                 {
                     return (currentNumber, expectedNumber);
                 }

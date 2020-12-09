@@ -7957,10 +7957,10 @@ jmp +1</value>
 56127089639442</value>
   </data>
   <data name="Day09Part1Output" xml:space="preserve">
-    <value>0</value>
+    <value>1504371145</value>
   </data>
   <data name="Day09Part2Output" xml:space="preserve">
-    <value>0</value>
+    <value>183278487</value>
   </data>
   <data name="Day10Input" xml:space="preserve">
     <value>noup</value>
