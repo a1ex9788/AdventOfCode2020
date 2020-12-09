@@ -387,7 +387,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0.
+        ///   Looks up a localized string similar to 878.
         /// </summary>
         internal static string Day05Part1Output {
             get {
@@ -396,7 +396,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 0.
+        ///   Looks up a localized string similar to 504.
         /// </summary>
         internal static string Day05Part2Output {
             get {
