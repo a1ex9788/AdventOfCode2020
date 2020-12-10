@@ -17,13 +17,13 @@ namespace AdventOfCode2020Tests
         [TestMethod]
         public void Part1Test()
         {
-            Assert.AreEqual(Convert.ToInt32(OutputPart1), Solver.SolvePart1());
+            Assert.AreEqual(Convert.ToInt64(OutputPart1), Solver.SolvePart1());
         }
 
         [TestMethod]
         public void Part2Test()
         {
-            Assert.AreEqual(Convert.ToInt32(OutputPart2), Solver.SolvePart2());
+            Assert.AreEqual(Convert.ToInt64(OutputPart2), Solver.SolvePart2());
         }
     }
 }
