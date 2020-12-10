@@ -8081,4 +8081,58 @@ jmp +1</value>
   <data name="Day10Part2Output" xml:space="preserve">
     <value>518344341716992</value>
   </data>
+  <data name="Day11Input" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day11Part1Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day11Part2Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day12Input" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day12Part1Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day12Part2Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day13Input" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day13Part1Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day13Part2Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day14Input" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day14Part1Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day14Part2Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day15Input" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day15Part1Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Day15Part2Output" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DayXXInput" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="DayXXPart1Output" xml:space="preserve">
+    <value>-1</value>
+  </data>
+  <data name="DayXXPart2Output" xml:space="preserve">
+    <value>-1</value>
+  </data>
 </root>
