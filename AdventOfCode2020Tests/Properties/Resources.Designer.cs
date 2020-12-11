@@ -874,7 +874,12 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to LLLLLLLLLL.LLLLLLLLL.LLLLL.LLLLL.LLLLLLL.LLLL..LLLLLLLL.LLLLLLLL.LLLLLLLL..LLLLLLLL.LLLLLLLL.LLLLL
+        ///LLLLLLLLLL.LLLLLLLLLLLLLLLLLLLLL..LLLLLL.LLLLL.LLLLLLLLLLLLLLLLL.LLLLLLLL.LLLLLLLLL.LLLLLLLL.LLLLL
+        ///LLLLLLLLLLLLLLLLLLLL.LLLLL.LLLLL.LLLLLLL.LLLLLLLLLLLLLL.LLLL.LLLLLLLLLLLL.LLLLLLLLL.LLLL.LLL.LLLLL
+        ///LLLLLLLLLLLLLLLLLLLL.LLLLL.LLLLLLLLLLLLL.LLLLL.LLLLLLLL.LLLLLLLL.LLLLLLLLLLLLLLLLLL.LLL.LLLLLLLLLL
+        ///LLLLLLLLLL.LLLLLLLLL.LLLLL.LLLLL.LLLLLLL.LLLLLLLLLLLLLL.LLLLLLLL.LLLLLLLL.LLLLLLLLLLLLLLLLLL.LLLLL
+        ///LLLLLLLLLL.L [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day11Input {
             get {
@@ -883,7 +888,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 2483.
         /// </summary>
         internal static string Day11Part1Output {
             get {
@@ -892,11 +897,209 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 2285.
         /// </summary>
         internal static string Day11Part2Output {
             get {
                 return ResourceManager.GetString("Day11Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to L.LL.LL.LL
+        ///LLLLLLL.LL
+        ///L.L.L..L..
+        ///LLLL.LL.LL
+        ///L.LL.LL.LL
+        ///L.LLLLL.LL
+        ///..L.L.....
+        ///LLLLLLLLLL
+        ///L.LLLLLL.L
+        ///L.LLLLL.LL.
+        /// </summary>
+        internal static string Day11TestInput1 {
+            get {
+                return ResourceManager.GetString("Day11TestInput1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.LL.LL.L#
+        ///#LLLLLL.LL
+        ///L.L.L..L..
+        ///LLLL.LL.LL
+        ///L.LL.LL.LL
+        ///L.LLLLL.LL
+        ///..L.L.....
+        ///LLLLLLLLL#
+        ///#.LLLLLL.L
+        ///#.LLLLL.L#.
+        /// </summary>
+        internal static string Day11TestInput13 {
+            get {
+                return ResourceManager.GetString("Day11TestInput13", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.L#.##.L#
+        ///#L#####.LL
+        ///L.#.#..#..
+        ///##L#.##.##
+        ///#.##.#L.##
+        ///#.#####.#L
+        ///..#.#.....
+        ///LLL####LL#
+        ///#.L#####.L
+        ///#.L####.L#.
+        /// </summary>
+        internal static string Day11TestInput14 {
+            get {
+                return ResourceManager.GetString("Day11TestInput14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.L#.L#.L#
+        ///#LLLLLL.LL
+        ///L.L.L..#..
+        ///##LL.LL.L#
+        ///L.LL.LL.L#
+        ///#.LLLLL.LL
+        ///..L.L.....
+        ///LLLLLLLLL#
+        ///#.LLLLL#.L
+        ///#.L#LL#.L#.
+        /// </summary>
+        internal static string Day11TestInput15 {
+            get {
+                return ResourceManager.GetString("Day11TestInput15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.L#.L#.L#
+        ///#LLLLLL.LL
+        ///L.L.L..#..
+        ///##L#.#L.L#
+        ///L.L#.#L.L#
+        ///#.L####.LL
+        ///..#.#.....
+        ///LLL###LLL#
+        ///#.LLLLL#.L
+        ///#.L#LL#.L#.
+        /// </summary>
+        internal static string Day11TestInput16 {
+            get {
+                return ResourceManager.GetString("Day11TestInput16", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.L#.L#.L#
+        ///#LLLLLL.LL
+        ///L.L.L..#..
+        ///##L#.#L.L#
+        ///L.L#.LL.L#
+        ///#.LLLL#.LL
+        ///..#.L.....
+        ///LLL###LLL#
+        ///#.LLLLL#.L
+        ///#.L#LL#.L#.
+        /// </summary>
+        internal static string Day11TestInput17 {
+            get {
+                return ResourceManager.GetString("Day11TestInput17", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.##.##.##
+        ///#######.##
+        ///#.#.#..#..
+        ///####.##.##
+        ///#.##.##.##
+        ///#.#####.##
+        ///..#.#.....
+        ///##########
+        ///#.######.#
+        ///#.#####.##.
+        /// </summary>
+        internal static string Day11TestInput2 {
+            get {
+                return ResourceManager.GetString("Day11TestInput2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.LL.L#.##
+        ///#LLLLLL.L#
+        ///L.L.L..L..
+        ///#LLL.LL.L#
+        ///#.LL.LL.LL
+        ///#.LLLL#.##
+        ///..L.L.....
+        ///#LLLLLLLL#
+        ///#.LLLLLL.L
+        ///#.#LLLL.##.
+        /// </summary>
+        internal static string Day11TestInput3 {
+            get {
+                return ResourceManager.GetString("Day11TestInput3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.##.L#.##
+        ///#L###LL.L#
+        ///L.#.#..#..
+        ///#L##.##.L#
+        ///#.##.LL.LL
+        ///#.###L#.##
+        ///..#.#.....
+        ///#L######L#
+        ///#.LL###L.L
+        ///#.#L###.##.
+        /// </summary>
+        internal static string Day11TestInput4 {
+            get {
+                return ResourceManager.GetString("Day11TestInput4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.#L.L#.##
+        ///#LLL#LL.L#
+        ///L.L.L..#..
+        ///#LLL.##.L#
+        ///#.LL.LL.LL
+        ///#.LL#L#.##
+        ///..L.L.....
+        ///#L#LLLL#L#
+        ///#.LLLLLL.L
+        ///#.#L#L#.##.
+        /// </summary>
+        internal static string Day11TestInput5 {
+            get {
+                return ResourceManager.GetString("Day11TestInput5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #.#L.L#.##
+        ///#LLL#LL.L#
+        ///L.#.L..#..
+        ///#L##.##.L#
+        ///#.#L.LL.LL
+        ///#.#L#L#.##
+        ///..L.L.....
+        ///#L#L##L#L#
+        ///#.LLLLLL.L
+        ///#.#L#L#.##.
+        /// </summary>
+        internal static string Day11TestInput6 {
+            get {
+                return ResourceManager.GetString("Day11TestInput6", resourceCulture);
             }
         }
         
