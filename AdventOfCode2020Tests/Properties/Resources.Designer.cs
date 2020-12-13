@@ -1104,7 +1104,120 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to R90
+        ///F88
+        ///R180
+        ///F98
+        ///S5
+        ///F14
+        ///S4
+        ///L270
+        ///S1
+        ///R90
+        ///F34
+        ///R90
+        ///F96
+        ///N1
+        ///E5
+        ///F94
+        ///R90
+        ///N1
+        ///E1
+        ///R90
+        ///S5
+        ///F59
+        ///S2
+        ///L90
+        ///E2
+        ///L90
+        ///S1
+        ///W3
+        ///N2
+        ///L90
+        ///S1
+        ///F32
+        ///F92
+        ///N1
+        ///F10
+        ///E2
+        ///F92
+        ///N1
+        ///E4
+        ///F68
+        ///W1
+        ///R90
+        ///F53
+        ///N3
+        ///F29
+        ///S1
+        ///R180
+        ///W5
+        ///R90
+        ///E1
+        ///F79
+        ///W2
+        ///R90
+        ///F70
+        ///S2
+        ///F17
+        ///S5
+        ///S3
+        ///F41
+        ///N4
+        ///E5
+        ///F65
+        ///E1
+        ///N4
+        ///E4
+        ///S3
+        ///F1
+        ///N1
+        ///E5
+        ///F73
+        ///S5
+        ///F4
+        ///L90
+        ///F100
+        ///E2
+        ///S5
+        ///E2
+        ///F67
+        ///N3
+        ///F27
+        ///S4
+        ///E4
+        ///F12
+        ///S4
+        ///W3
+        ///W2
+        ///F10
+        ///L90
+        ///N5
+        ///E2
+        ///R90
+        ///W4
+        ///F76
+        ///S5
+        ///F48
+        ///R90
+        ///F28
+        ///L90
+        ///F36
+        ///N4
+        ///F27
+        ///E4
+        ///N3
+        ///F12
+        ///L90
+        ///S1
+        ///R180
+        ///S2
+        ///F77
+        ///E2
+        ///N5
+        ///E3
+        ///S2
+        ///E1 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day12Input {
             get {
@@ -1113,7 +1226,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 1496.
         /// </summary>
         internal static string Day12Part1Output {
             get {
