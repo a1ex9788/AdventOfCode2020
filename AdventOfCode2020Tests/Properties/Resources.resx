@@ -9132,13 +9132,13 @@ F60</value>
     <value>5</value>
   </data>
   <data name="Day15Input" xml:space="preserve">
-    <value>5</value>
+    <value>15,12,0,14,3,1</value>
   </data>
   <data name="Day15Part1Output" xml:space="preserve">
-    <value>5</value>
+    <value>249</value>
   </data>
   <data name="Day15Part2Output" xml:space="preserve">
-    <value>5</value>
+    <value>41687</value>
   </data>
   <data name="DayXXInput" xml:space="preserve">
     <value>-1</value>
