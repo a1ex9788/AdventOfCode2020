@@ -1272,7 +1272,26 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to mask = 100X100X101011111X100000100X11010011
+        ///mem[33323] = 349380
+        ///mem[52742] = 116688965
+        ///mem[4113] = 11499
+        ///mem[15819] = 313303
+        ///mem[23239] = 755579063
+        ///mask = X00X10X1X010110110111X00010X100X000X
+        ///mem[49207] = 466621685
+        ///mem[34069] = 6874604
+        ///mask = 1001100XX00011110110100XX0110000001X
+        ///mem[61278] = 56361674
+        ///mem[51360] = 61871432
+        ///mem[31903] = 45067
+        ///mask = 100X100XX0101X11X1X00X00001001X101X0
+        ///mem[22981] = 144008
+        ///mem[12013] = 49165315
+        ///mem[54643] = 50677
+        ///mem[59166] = 678129
+        ///mem[64022] = 27522
+        ///mask = [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day14Input {
             get {
@@ -1281,7 +1300,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 13556564111697.
         /// </summary>
         internal static string Day14Part1Output {
             get {
@@ -1290,7 +1309,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 4173715962894.
         /// </summary>
         internal static string Day14Part2Output {
             get {
