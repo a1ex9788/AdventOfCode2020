@@ -1345,6 +1345,163 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to departure location: 47-691 or 713-954
+        ///departure station: 44-776 or 799-969
+        ///departure platform: 37-603 or 627-953
+        ///departure track: 41-240 or 259-955
+        ///departure date: 42-370 or 383-961
+        ///departure time: 50-117 or 136-962
+        ///arrival location: 33-86 or 104-973
+        ///arrival station: 29-339 or 347-962
+        ///arrival platform: 46-644 or 659-970
+        ///arrival track: 31-584 or 604-960
+        ///class: 42-107 or 115-971
+        ///duration: 31-753 or 770-972
+        ///price: 40-515 or 525-957
+        ///route: 31-453 or 465-971
+        ///row: 46-845 or 868-965
+        ///seat: 45-475 or  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day16Input {
+            get {
+                return ResourceManager.GetString("Day16Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 27850.
+        /// </summary>
+        internal static string Day16Part1Output {
+            get {
+                return ResourceManager.GetString("Day16Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 491924517533.
+        /// </summary>
+        internal static string Day16Part2Output {
+            get {
+                return ResourceManager.GetString("Day16Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to #...#.#.
+        ///..#.#.##
+        ///..#..#..
+        ///.....###
+        ///...#.#.#
+        ///#.#.##..
+        ///#####...
+        ///.#.#.##..
+        /// </summary>
+        internal static string Day17Input {
+            get {
+                return ResourceManager.GetString("Day17Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day17Part1Output {
+            get {
+                return ResourceManager.GetString("Day17Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day17Part2Output {
+            get {
+                return ResourceManager.GetString("Day17Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day18Input {
+            get {
+                return ResourceManager.GetString("Day18Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day18Part1Output {
+            get {
+                return ResourceManager.GetString("Day18Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day18Part2Output {
+            get {
+                return ResourceManager.GetString("Day18Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day19Input {
+            get {
+                return ResourceManager.GetString("Day19Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day19Part1Output {
+            get {
+                return ResourceManager.GetString("Day19Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day19Part2Output {
+            get {
+                return ResourceManager.GetString("Day19Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day20Input {
+            get {
+                return ResourceManager.GetString("Day20Input", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day20Part1Output {
+            get {
+                return ResourceManager.GetString("Day20Part1Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 5.
+        /// </summary>
+        internal static string Day20Part2Output {
+            get {
+                return ResourceManager.GetString("Day20Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to -1.
         /// </summary>
         internal static string DayXXInput {
