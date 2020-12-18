@@ -1421,7 +1421,131 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to z=-1
+        ///#..
+        ///..#
+        ///.#.
+        ///
+        ///z=0
+        ///#.#
+        ///.##
+        ///.#.
+        ///
+        ///z=1
+        ///#..
+        ///..#
+        ///.#..
+        /// </summary>
+        internal static string Day17TestOutput1 {
+            get {
+                return ResourceManager.GetString("Day17TestOutput1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to z=-2
+        ///.....
+        ///.....
+        ///..#..
+        ///.....
+        ///.....
+        ///
+        ///z=-1
+        ///..#..
+        ///.#..#
+        ///....#
+        ///.#...
+        ///.....
+        ///
+        ///z=0
+        ///##...
+        ///##...
+        ///#....
+        ///....#
+        ///.###.
+        ///
+        ///z=1
+        ///..#..
+        ///.#..#
+        ///....#
+        ///.#...
+        ///.....
+        ///
+        ///z=2
+        ///.....
+        ///.....
+        ///..#..
+        ///.....
+        ///......
+        /// </summary>
+        internal static string Day17TestOutput2 {
+            get {
+                return ResourceManager.GetString("Day17TestOutput2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to z=-2
+        ///.......
+        ///.......
+        ///..##...
+        ///..###..
+        ///.......
+        ///.......
+        ///.......
+        ///
+        ///z=-1
+        ///..#....
+        ///...#...
+        ///#......
+        ///.....##
+        ///.#...#.
+        ///..#.#..
+        ///...#...
+        ///
+        ///z=0
+        ///...#...
+        ///.......
+        ///#......
+        ///.......
+        ///.....##
+        ///.##.#..
+        ///...#...
+        ///
+        ///z=1
+        ///..#....
+        ///...#...
+        ///#......
+        ///.....##
+        ///.#...#.
+        ///..#.#..
+        ///...#...
+        ///
+        ///z=2
+        ///.......
+        ///.......
+        ///..##...
+        ///..###..
+        ///.......
+        ///.......
+        ///........
+        /// </summary>
+        internal static string Day17TestOutput3 {
+            get {
+                return ResourceManager.GetString("Day17TestOutput3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (8 + 5 + 5) + (8 + (2 * 6) + (6 * 6 * 9 * 8) + 3 + 9 * 8)
+        ///(7 + 7 + 3) * 8 * (5 + 9 + 4 + (7 + 8 + 3 * 3 + 9 + 7) + (7 + 6 + 6) * 8) * (4 + 5 * 9)
+        ///8 * (3 * (3 + 8 + 4 * 9) + (7 * 9) * (3 * 3 * 3 + 6 * 8 * 2) * 7) + 5 + 2
+        ///2 * (2 + 9 + 6 * (5 + 9 * 2 * 2 * 5 * 5) * (6 * 9 + 4 + 8 + 4 * 9))
+        ///3 + 2
+        ///2 * ((5 * 5 + 9 * 5 * 3 + 7) + (8 * 8 + 4) + 7) * 7
+        ///8 * 3 + 4
+        ///(5 * 3 * (9 * 9 + 4 * 3) + 2) * (3 + 2 * 2 + (8 + 6) * 3 + 7)
+        ///((6 + 4 * 5 + 9 + 7 + 9) + 2 + 4 * 3 + 5) + 5 * 4 + (5 * (2 * 5 + 3 + 8 + 4) * 5 * 8)  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day18Input {
             get {
@@ -1430,7 +1554,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 5374004645253.
         /// </summary>
         internal static string Day18Part1Output {
             get {
@@ -1439,7 +1563,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 88782789402798.
         /// </summary>
         internal static string Day18Part2Output {
             get {
