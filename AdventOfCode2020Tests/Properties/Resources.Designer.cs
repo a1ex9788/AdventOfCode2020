@@ -1572,7 +1572,33 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 1: 121 99 | 96 13
+        ///111: 121 77
+        ///58: 96 71 | 121 59
+        ///81: 91 121 | 123 96
+        ///3: 65 96 | 55 121
+        ///26: 96 121 | 96 96
+        ///125: 121 23 | 96 64
+        ///56: 96 15 | 121 114
+        ///54: 123 96 | 46 121
+        ///21: 128 96 | 78 121
+        ///52: 33 91
+        ///6: 96 101 | 121 12
+        ///17: 89 121 | 46 96
+        ///38: 14 121 | 2 96
+        ///9: 121 123 | 96 103
+        ///42: 96 29 | 121 3
+        ///129: 26 96 | 89 121
+        ///67: 46 96 | 41 121
+        ///122: 6 96 | 20 121
+        ///50: 96 99 | 121 103
+        ///70: 121 103 | 96 103
+        ///60: 96 118 | 121 57
+        ///90: 32 96 | 106 121
+        ///19: 47 121 | 95 96
+        ///75: 98 96 | 85 121
+        ///15: 96 99 | 121 78
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day19Input {
             get {
@@ -1581,7 +1607,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 265.
         /// </summary>
         internal static string Day19Part1Output {
             get {
@@ -1590,11 +1616,73 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 394.
         /// </summary>
         internal static string Day19Part2Output {
             get {
                 return ResourceManager.GetString("Day19Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0: 4 1 5
+        ///1: 2 3 | 3 2
+        ///2: 4 4 | 5 5
+        ///3: 4 5 | 5 4
+        ///4: &quot;a&quot;
+        ///5: &quot;b&quot;
+        ///
+        ///ababbb
+        ///bababa
+        ///abbbab
+        ///aaabbb
+        ///aaaabbb.
+        /// </summary>
+        internal static string Day19TestInput1 {
+            get {
+                return ResourceManager.GetString("Day19TestInput1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 42: 9 14 | 10 1
+        ///9: 14 27 | 1 26
+        ///10: 23 14 | 28 1
+        ///1: &quot;a&quot;
+        ///11: 42 31
+        ///5: 1 14 | 15 1
+        ///19: 14 1 | 14 14
+        ///12: 24 14 | 19 1
+        ///16: 15 1 | 14 14
+        ///31: 14 17 | 1 13
+        ///6: 14 14 | 1 14
+        ///2: 1 24 | 14 4
+        ///0: 8 11
+        ///13: 14 3 | 1 12
+        ///15: 1 | 14
+        ///17: 14 2 | 1 7
+        ///23: 25 1 | 22 14
+        ///28: 16 1
+        ///4: 1 1
+        ///20: 14 14 | 1 15
+        ///3: 5 14 | 16 1
+        ///27: 1 6 | 14 18
+        ///14: &quot;b&quot;
+        ///21: 14 1 | 1 14
+        ///25: 1 1 | 1 14
+        ///22: 14 14
+        ///8: 42
+        ///26: 14 22 | 1 20
+        ///18: 15 15
+        ///7: 14 5 | 1 21
+        ///24: 14 1
+        ///
+        ///abbbbbabbbaaaababbaabbbbabababbbabbbbbbabaaaa
+        ///bbabbbbaabaabba [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day19TestInput2 {
+            get {
+                return ResourceManager.GetString("Day19TestInput2", resourceCulture);
             }
         }
         
