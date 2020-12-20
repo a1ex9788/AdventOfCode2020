@@ -1571,7 +1571,52 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to Tile 1051:
+        ///#...#...##
+        ///.....#....
+        ///....#.....
+        ///....#.....
+        ///.....##...
+        ///.......#.#
+        ///#.......##
+        ///..#..#....
+        ///#.#.#....#
+        ///###.##.#.#
+        ///
+        ///Tile 3461:
+        ///##.#####.#
+        ///.....#..##
+        ///...#....##
+        ///#.#.......
+        ///..........
+        ///..###..##.
+        ///......#...
+        ///##....#...
+        ///.#......#.
+        ///..#.###.#.
+        ///
+        ///Tile 3209:
+        ///.##.#.###.
+        ///#...#...##
+        ///..........
+        ///##........
+        ///#...#.....
+        ///#..#.....#
+        ///##...#..##
+        ///##.....#.#
+        ///.#..##....
+        ///..###..###
+        ///
+        ///Tile 2039:
+        ///..#.#.###.
+        ///#..#..####
+        ///#...#....#
+        ///##.#..#...
+        ///.........#
+        ///#......#.#
+        ///#.......##
+        ///#...#....#
+        ///#. [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day20Input {
             get {
@@ -1580,7 +1625,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 47213728755493.
         /// </summary>
         internal static string Day20Part1Output {
             get {
@@ -1594,6 +1639,60 @@ namespace AdventOfCode2020Tests.Properties {
         internal static string Day20Part2Output {
             get {
                 return ResourceManager.GetString("Day20Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tile 2311:
+        ///..##.#..#.
+        ///##..#.....
+        ///#...##..#.
+        ///####.#...#
+        ///##.##.###.
+        ///##...#.###
+        ///.#.#.#..##
+        ///..#....#..
+        ///###...#.#.
+        ///..###..###
+        ///
+        ///Tile 1951:
+        ///#.##...##.
+        ///#.####...#
+        ///.....#..##
+        ///#...######
+        ///.##.#....#
+        ///.###.#####
+        ///###.##.##.
+        ///.###....#.
+        ///..#.#..#.#
+        ///#...##.#..
+        ///
+        ///Tile 1171:
+        ///####...##.
+        ///#..##.#..#
+        ///##.#..#.#.
+        ///.###.####.
+        ///..###.####
+        ///.##....##.
+        ///.#...####.
+        ///#.##.####.
+        ///####..#...
+        ///.....##...
+        ///
+        ///Tile 1427:
+        ///###.##.#..
+        ///.#..#.##..
+        ///.#.##.#..#
+        ///#.#.#.##.#
+        ///....#...##
+        ///...##..##.
+        ///...#.#####
+        ///.#.####.#.
+        ///.. [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day20TestInput1 {
+            get {
+                return ResourceManager.GetString("Day20TestInput1", resourceCulture);
             }
         }
         
