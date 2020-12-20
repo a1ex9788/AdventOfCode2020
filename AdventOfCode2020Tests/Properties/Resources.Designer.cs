@@ -1403,7 +1403,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 401.
         /// </summary>
         internal static string Day17Part1Output {
             get {
@@ -1412,127 +1412,11 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 2224.
         /// </summary>
         internal static string Day17Part2Output {
             get {
                 return ResourceManager.GetString("Day17Part2Output", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to z=-1
-        ///#..
-        ///..#
-        ///.#.
-        ///
-        ///z=0
-        ///#.#
-        ///.##
-        ///.#.
-        ///
-        ///z=1
-        ///#..
-        ///..#
-        ///.#..
-        /// </summary>
-        internal static string Day17TestOutput1 {
-            get {
-                return ResourceManager.GetString("Day17TestOutput1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to z=-2
-        ///.....
-        ///.....
-        ///..#..
-        ///.....
-        ///.....
-        ///
-        ///z=-1
-        ///..#..
-        ///.#..#
-        ///....#
-        ///.#...
-        ///.....
-        ///
-        ///z=0
-        ///##...
-        ///##...
-        ///#....
-        ///....#
-        ///.###.
-        ///
-        ///z=1
-        ///..#..
-        ///.#..#
-        ///....#
-        ///.#...
-        ///.....
-        ///
-        ///z=2
-        ///.....
-        ///.....
-        ///..#..
-        ///.....
-        ///......
-        /// </summary>
-        internal static string Day17TestOutput2 {
-            get {
-                return ResourceManager.GetString("Day17TestOutput2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to z=-2
-        ///.......
-        ///.......
-        ///..##...
-        ///..###..
-        ///.......
-        ///.......
-        ///.......
-        ///
-        ///z=-1
-        ///..#....
-        ///...#...
-        ///#......
-        ///.....##
-        ///.#...#.
-        ///..#.#..
-        ///...#...
-        ///
-        ///z=0
-        ///...#...
-        ///.......
-        ///#......
-        ///.......
-        ///.....##
-        ///.##.#..
-        ///...#...
-        ///
-        ///z=1
-        ///..#....
-        ///...#...
-        ///#......
-        ///.....##
-        ///.#...#.
-        ///..#.#..
-        ///...#...
-        ///
-        ///z=2
-        ///.......
-        ///.......
-        ///..##...
-        ///..###..
-        ///.......
-        ///.......
-        ///........
-        /// </summary>
-        internal static string Day17TestOutput3 {
-            get {
-                return ResourceManager.GetString("Day17TestOutput3", resourceCulture);
             }
         }
         
