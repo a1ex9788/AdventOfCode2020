@@ -1737,7 +1737,59 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to Player 1:
+        ///41
+        ///48
+        ///12
+        ///6
+        ///1
+        ///25
+        ///47
+        ///43
+        ///4
+        ///35
+        ///10
+        ///13
+        ///23
+        ///39
+        ///22
+        ///28
+        ///44
+        ///42
+        ///32
+        ///31
+        ///24
+        ///50
+        ///34
+        ///29
+        ///14
+        ///
+        ///Player 2:
+        ///36
+        ///49
+        ///11
+        ///16
+        ///20
+        ///17
+        ///26
+        ///30
+        ///18
+        ///5
+        ///2
+        ///38
+        ///7
+        ///27
+        ///21
+        ///9
+        ///19
+        ///15
+        ///8
+        ///45
+        ///37
+        ///40
+        ///33
+        ///46
+        ///3.
         /// </summary>
         internal static string Day22Input {
             get {
@@ -1746,7 +1798,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 32856.
         /// </summary>
         internal static string Day22Part1Output {
             get {
@@ -1755,11 +1807,32 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 33805.
         /// </summary>
         internal static string Day22Part2Output {
             get {
                 return ResourceManager.GetString("Day22Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player 1:
+        ///9
+        ///2
+        ///6
+        ///3
+        ///1
+        ///
+        ///Player 2:
+        ///5
+        ///8
+        ///4
+        ///7
+        ///10.
+        /// </summary>
+        internal static string Day22TestInput1 {
+            get {
+                return ResourceManager.GetString("Day22TestInput1", resourceCulture);
             }
         }
         
