@@ -1864,7 +1864,22 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to swnewenenenenenenwneseneswenenewnwse
+        ///wnenwnenenenwewnenenwnwnwene
+        ///nwnewnwwswswewnww
+        ///eeneeeeeseeesweeeeeenwee
+        ///senwnwseswswnwsesesesese
+        ///seseeneseewneseseesewseseewsesew
+        ///eesenwseseseesesewswe
+        ///seswseneswsewwseseswswseseswnwsesewneese
+        ///swenwnwwwnwwsenenwwnwwnwnwwnwww
+        ///sewenwwwswwwwwwneswswnenwswswe
+        ///sweenwnenenewsweeneeneeeeweese
+        ///nenewnenenenenenenenenewswneseseenewne
+        ///seneseswsesesesesesesesesesesenwsesesese
+        ///newnwswsenewneswseneswneneenwnenenenene
+        ///seeswnesewnwesenwseneseesewsewsee
+        ///wsweseswswswwsenwsw [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Day24Input {
             get {
@@ -1873,7 +1888,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 434.
         /// </summary>
         internal static string Day24Part1Output {
             get {
@@ -1882,11 +1897,35 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 3955.
         /// </summary>
         internal static string Day24Part2Output {
             get {
                 return ResourceManager.GetString("Day24Part2Output", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to sesenwnenenewseeswwswswwnenewsewsw
+        ///neeenesenwnwwswnenewnwwsewnenwseswesw
+        ///seswneswswsenwwnwse
+        ///nwnwneseeswswnenewneswwnewseswneseene
+        ///swweswneswnenwsewnwneneseenw
+        ///eesenwseswswnenwswnwnwsewwnwsene
+        ///sewnenenenesenwsewnenwwwse
+        ///wenwwweseeeweswwwnwwe
+        ///wsweesenenewnwwnwsenewsenwwsesesenwne
+        ///neeswseenwwswnwswswnw
+        ///nenwswwsewswnenenewsenwsenwnesesenew
+        ///enewnwewneswsewnwswenweswnenwsenwsw
+        ///sweneswneswneneenwnewenewwneswswnese
+        ///swwesenesewenwneswnwwneseswwne
+        ///enesenwswwswneneswsenwnewswseenwsese
+        ///wnwnesenesenenwwn [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Day24TestInput1 {
+            get {
+                return ResourceManager.GetString("Day24TestInput1", resourceCulture);
             }
         }
         
