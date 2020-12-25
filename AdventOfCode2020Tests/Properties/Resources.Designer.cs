@@ -1930,7 +1930,8 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 9789649
+        ///3647239.
         /// </summary>
         internal static string Day25Input {
             get {
@@ -1939,7 +1940,7 @@ namespace AdventOfCode2020Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 5.
+        ///   Looks up a localized string similar to 8740494.
         /// </summary>
         internal static string Day25Part1Output {
             get {
