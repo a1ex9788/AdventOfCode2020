@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace AdventOfCode2020
 {
@@ -57,30 +58,14 @@ namespace AdventOfCode2020
 
         public CriteriaAndPassword(string criteriaAndPassword)
         {
-            string[] criteriaAndPasswordSeparated = criteriaAndPassword.Split(": ");            
-            string fullCriteria = criteriaAndPasswordSeparated[0];
-            password = criteriaAndPasswordSeparated[1];
+            Match match = Regex.Match(criteriaAndPassword, @"(\d*)-(\d*)\s(\w):\s(\w*)");
 
-            string[] criteria = fullCriteria.Split(" ");
-            string fullOcurrenciesRange = criteria[0];
-            character = criteria[1][0];
+            firstCriteriaNumber = Convert.ToInt32(match.Groups[1].Value);
+            secondCriteriaNumber = Convert.ToInt32(match.Groups[2].Value);
+            character = match.Groups[3].Value[0];
+            password = match.Groups[4].Value;
 
-            string[] ocurrenciesRange = fullOcurrenciesRange.Split("-");
-            firstCriteriaNumber = Convert.ToInt32(ocurrenciesRange[0]);
-            secondCriteriaNumber = Convert.ToInt32(ocurrenciesRange[1]);
-
-            CalculateOcurrencies();
-        }
-
-        private void CalculateOcurrencies()
-        {
-            foreach (char c in password)
-            {
-                if (c == character)
-                {
-                    ocurrencies++;
-                }
-            }
+            ocurrencies = Regex.Matches(password, character.ToString()).Count;
         }
 
         public bool MeetsRangeOcurrenciesCriteria()
@@ -93,7 +78,7 @@ namespace AdventOfCode2020
             bool firstPositionMeets = password[firstCriteriaNumber - 1] == character;
             bool secondPositionMeets = password[secondCriteriaNumber - 1] == character;
 
-            return (firstPositionMeets && !secondPositionMeets) || (!firstPositionMeets && secondPositionMeets); 
+            return (firstPositionMeets && !secondPositionMeets) || (!firstPositionMeets && secondPositionMeets);
         }
     }
 }
